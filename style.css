@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+display: grid;
+justify-content: space-between;
+grid-template-rows: 75px 75px;
+grid-template-columns: 1000px 400px;
+}
+
+.searchbar{
+display: grid;
+grid-template-columns: 80px 800px;
+background-color: #ffffff;
+float: right;
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 20px;
+align-content: center;
+
+}
+
+.profile{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+font-size: 25px;
+color: #fff;
+line-height: 60px;
+text-align: center;
+background: rgb(0, 132, 255);
+display: inline-block;
+}
+
+#note {
+content:url(/Users/nathanielcabrera/repos/admin-dashboard/images/notifications.png);
+width: 25px;
+height: 25px;
+}
+
+#search {
+content:url(/Users/nathanielcabrera/repos/admin-dashboard/images/search.png);
+width: 25px;
+height: 25px;
+}
+
+.userinfo{
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: 70px 70px 130px;
+grid-column-gap: 25px;
+font-size: small;
+text-align: center;
+}
+
+.greeting {
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: 75px 900px;
+grid-template-rows: 75px;
+}
+
+.nav {
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+ul {
+display: flex;
+list-style-type: none;
+gap: 25px;
+}
+
+button {
+background-color: #003cff;
+border: none;
+color: white;
+padding: 6px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 20px;
+}

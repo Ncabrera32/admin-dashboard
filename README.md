@@ -1,3 +1,3 @@
 # admin-dashboard
 
-1st commit Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
+1st commit set up HTML and CSS files to make sure everything is linked correctly.
