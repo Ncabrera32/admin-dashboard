@@ -4,6 +4,13 @@
     /*border: 1px solid blue;*/
 }
 
+.center{
+    background-color: rgb(234, 234, 234);
+}
+
+.projects{
+    margin-top: 10px;
+}
 .logo{
 margin-bottom: 25px;
 margin-top: 10px;
@@ -75,7 +82,6 @@ margin-top: 8px;
 margin-right: 16px;
 font-size: 20px;
 align-content: center;
-
 }
 
 .profile{
